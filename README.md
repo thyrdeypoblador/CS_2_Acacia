@@ -14,7 +14,6 @@ This program calculates the distance between two points on a Cartesian plane.
 - Enter required value for y2
 
 ## Sample Output
-import math
 - Enter x1 value: 1
 - Enter x2 value: 4
 - Enter y1 value: 2
