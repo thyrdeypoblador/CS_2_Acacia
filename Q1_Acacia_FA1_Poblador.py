@@ -1,15 +1,21 @@
 import math
-x1 = float(input("Enter x1 value"))
-x2 = float(input("Enter x2 value"))
-y1 = float(input("Enter y1 value"))
-y2 = float(input("Enter y2 value"))
 
+# Enter Values
+## Enter Value For x1
+x1 = float(input("Enter x1 value"))
+## Enter Value For x2
+x2 = float(input("Enter x2 value"))
+## Enter Value For y1
+y1 = float(input("Enter y1 value"))
+## Enter Value For y2
+y2 = float(input("Enter y2 value"))
+# Calculating
 x = x2 - x1
 y = y2 - y1
 xsqrt = math.pow(x, 2)
 ysqrt = math.pow(y, 2)
 d = math.sqrt(xsqrt + ysqrt)
-
+# Computed Distance Output
 print("The distance between the two points is", d)
 
 #Reflection prompts
